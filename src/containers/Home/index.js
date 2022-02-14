@@ -45,7 +45,7 @@ const workList = [
   {
     link: '#/ValentinesDay',
     title: '20220214情人节快乐~',
-    description: '🐼一只萌萌的冰墩墩送给你！',
+    description: '🐼一只萌萌的冰墩墩送给李肥肥！',
     image: olympicImage,
     three: true
   }//,
@@ -152,7 +152,7 @@ export default class Home extends React.Component {
     return (
       <div className="home" style={{ padding: '24px'}}>
         <Box>
-          <h1 className="page_title">Valentine'sDay Surprise</h1>
+          <h1 className="page_title">Happy Valentine'sDay</h1>
         </Box>
         <Box sx={{ width: '100%' }} style={{ maxWidth: '1200px', margin: 'auto' }}>
           <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
